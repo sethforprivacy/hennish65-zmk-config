@@ -21,7 +21,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTL>
-		, macro_tap &kp C>
+		, <&macro_tap &kp C>
                 , <&macro_release &kp LCTL>
                 ;
         };
@@ -31,7 +31,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTL>
-		, macro_tap &kp V>
+		, <&macro_tap &kp V>
                 , <&macro_release &kp LCTL>
                 ;
         };
